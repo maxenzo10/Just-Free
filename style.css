@@ -1,40 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body { 
-	background: rgb(165,169,187);
-	background: radial-gradient(circle, rgba(165,169,187,1) 0%, rgba(255,255,255,1) 100%);
+    font-family: 'Lato', sans-serif;
+	background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: #fff;
 }
 
-.menu {
-    display: flex;                /* Transformation en flexbox */
-    padding:0;                    /* Suppression des marges internes */
-    background-color: rgb(165,169,187) radial-gradient(circle, rgba(165,169,187,1) 0%, rgba(255,255,255,1) 100%);       /* Ajout de la couleur d'arrière-plan */
-    justify-content: [...];/* Alignements des liens dans le menu */
+body .page{
+    margin: 10px 40px;
 }
-.menu li {
-    list-style-type: none ;       /* Suppression des puces */
-  
+
+/* Barre de navigation */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #141414;
+    padding: 10px 0px;
 }
-.menu a {
-    display:block;                /* Transformation en block */
-    min-width: 120px;             /* Largeur minimale des liens */   
-    
-    margin: 0.5rem;               /* Marges externes */
-    padding: 0.4rem 0;            /* Marges internes */
-    text-align: center;           /* Centrage du texte */   
-    background-color: #1ABC9C;    /* Arrière-plan */
-    color: #fff;                  /* Couleur du texte */
-    text-decoration: none;        /* Suppression du soulignement */
-    border: 1px solid #fff;       /* Ajout d'une bordure */
-    border-radius: 4px;           /* Arrondis des bordures */
-    
-    transition: all 1s ;          /* Ajout des effets de transition */
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
 }
-.menu a.actif {    
-    background-color: #000 ; 
-    color: #1ABC9C ;
-    border-color: #1ABC9C ;
+
+nav .onglets a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
 }
-.menu a:hover,
-.menu a:hover.actif{
-    background-color: #ed2794;
-    color: #ffe843;
-    border-color: #ffe843;
+
+nav .buttons button{
+    padding: 13px 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+nav .buttons .login{
+    background-color: #48C9B0;
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav .buttons .register{
+    background-color: #E74C3C;
+    margin-right: 10px;
+    color: #fff;
+}
+/* Fin de la Barre de navigation */
+
+/* Corps */
+
+.page header{
+    margin-top: 40px;
+    background:url('file:///C:/Users/thedo/Downloads/Just-free.mp4');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1520px 200px;
+}
+
+.page header h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+    color: #fff;
+}
+
+/* Fin du Corps */
+
