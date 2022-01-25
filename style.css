@@ -101,6 +101,49 @@ nav .buttons .register{
     cursor: pointer;
 }
 
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+
+.main .content .card .left h1.Scan{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 18%;
+}
+
+.main .content .card .left h1.Anime{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 22%;
+}
+
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
 /* Fin du Corps */
 
 /*Pied de page*/
@@ -109,6 +152,7 @@ footer{
     background-color: #1a1a1a;
     padding: 25px 100px;
     color: #828282;
+    border-top: 3px solid #3498DB;
 }
 
 footer .colonnes{
