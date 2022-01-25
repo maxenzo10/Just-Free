@@ -58,6 +58,7 @@ nav .buttons .login{
     margin-right: 10px;
     margin-top: 10px;
     color: #fff;
+    cursor: pointer;
 }
 
 nav .buttons .register{
@@ -65,24 +66,42 @@ nav .buttons .register{
     margin-right: 10px;
     margin-top: 10px;
     color: #fff;
+    cursor: pointer;
 }
 /* Fin de la Barre de navigation */
 
 /* Corps */
 
 .page header{
-    margin-top: 40px;
-    background:url('file:///C:/Users/thedo/Downloads/564835.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1080px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('');
+    background-size: cover;
+    padding: 40px;
 }
 
 .page header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.page header h4{
+    margin-top: -20px;
+    font-size: 20px;
     text-align: center;
-    font-size: 60px;
-    padding: 150px;
-    color: #0023FF;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.page header button{
+    padding: 10px 20px;
+    background-color: #0023FF;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
 }
 
 /* Fin du Corps */
