@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body { 
     font-family: 'Lato', sans-serif;
 	background-color: #141414;
@@ -136,6 +140,30 @@ nav .buttons .register{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
     width: 22%;
+}
+
+.main .content .card .left h1.Film{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 16%;
+}
+
+.main .content .card .left h1.Earn{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 16%;
+}
+
+.main .content .card .left h1.partenaires{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 46%;
+}
+
+.main .content .card .left h1.Dons{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 40%;
 }
 
 .main .content .card .right img{
