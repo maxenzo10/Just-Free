@@ -9,10 +9,15 @@ body {
 }
 
 body .page{
-    margin: 10px 40px;
+    margin: 0px 40px;
 }
 
 /* Barre de navigation */
+
+img{
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
 
 nav{
     display: flex;
@@ -22,18 +27,22 @@ nav{
     top: 0;
     background-color: #141414;
     padding: 10px 0px;
+    border-bottom: 3px solid #fff;
 }
 
 nav .onglets{
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
+    align-items: center;
 }
 
 nav .onglets a{
     margin-right: 20px;
     text-decoration: none;
     color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
 }
 
 nav .buttons button{
@@ -47,12 +56,14 @@ nav .buttons button{
 nav .buttons .login{
     background-color: #0023FF;
     margin-right: 10px;
+    margin-top: 10px;
     color: #fff;
 }
 
 nav .buttons .register{
     background-color: #3498DB;
     margin-right: 10px;
+    margin-top: 10px;
     color: #fff;
 }
 /* Fin de la Barre de navigation */
@@ -94,23 +105,39 @@ footer .colonnes{
 
 /*Site sur Android format*/
 
-@media screen and (max-width: 640px){
-    body .page{
+@media screen and (max-width: 680px){
+
+body .page{
         margin: 10px;
-    }
+}
 
-    nav .onglets{
-        display: none;
-    }
+img{
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
 
-    header{
+nav .onglets{
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+nav .buttons button{
+    padding: 7px 11px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+header{
         margin-top: 20px;
         background-size: 940px 250px;
-    }
-    header h1{
+}
+    
+header h1{
         font-size: 10px;
         padding: 100px;
-    }
+}
 }
 
 /* Fin du Site sur Android format*/
