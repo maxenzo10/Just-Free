@@ -12,6 +12,27 @@ body {
     color: #fff;
 }
 
+
+.btn{
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone{
+    width: 70px;
+    padding: 1px;
+}
+
+
 /* Barre de navigation */
 
 img{
@@ -54,7 +75,7 @@ nav .buttons button{
     outline: none;
 }
 
-nav .buttons .login{
+nav .buttons .faisundon{
     background-color: #3498DB;
     margin-right: 10px;
     margin-top: 10px;
@@ -62,7 +83,7 @@ nav .buttons .login{
     cursor: pointer;
 }
 
-nav .buttons .register{
+nav .buttons .partenariat{
     background-color: red;
     margin-right: 10px;
     margin-top: 10px;
