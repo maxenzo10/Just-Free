@@ -25,6 +25,9 @@ body {
     right: 20px;
     bottom: 20px;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgb(255, 255, 255);
+    border: 2px solid #fff;
 }
 
 .icone{
@@ -106,6 +109,9 @@ nav .buttons button{
     border: none;
     font-size: 15px;
     outline: none;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgb(255, 255, 255);
+    border: 2px solid #fff;
 }
 
 nav .buttons .faisundon{
@@ -157,6 +163,9 @@ nav .buttons .partenariat{
     font-size: 15px;
     outline: none;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgb(255, 255, 255);
+    border: 2px solid #fff;
 }
 
 .main{
