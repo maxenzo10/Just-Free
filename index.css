@@ -134,6 +134,8 @@ nav .buttons .partenariat{
 
 /* Corps */
 
+/* Header */
+
 .page header{
     display: flex;
     flex-direction: column;
@@ -168,6 +170,8 @@ nav .buttons .partenariat{
     box-shadow: 0 2px 15px rgb(255, 255, 255);
     border: 2px solid #fff;
 }
+
+/* Fin du header */
 
 .main{
     margin-top: 40px;
