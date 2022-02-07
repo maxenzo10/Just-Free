@@ -140,7 +140,7 @@ nav .buttons .partenariat{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('Image/4.png');
+    background: url('Image/4.avif');
     background-size: cover;
     padding: 40px;
 }
