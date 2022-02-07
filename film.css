@@ -21,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index:1;
     right: 20px;
     bottom: 20px;
     cursor: pointer;
@@ -134,14 +135,13 @@ nav .buttons .partenariat{
 .main{
     margin-left: 15px;
     margin-top: 40px;
-    
-    background-color: #000;
 }
 
 .main .card{
     float: left;
     background-color: #3498DB;
     margin-right: 15px;
+    margin-bottom: 70px;
     
 
 }
@@ -156,6 +156,18 @@ nav .buttons .partenariat{
     margin-top: 0px;
     position: absolute;
     margin-left: 35px;
+    color: #fff;
+    background-color: #3498DB;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.tp{
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 15px;
     color: #fff;
     background-color: #3498DB;
     padding-right: 10px;
