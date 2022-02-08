@@ -136,6 +136,19 @@ nav .buttons .partenariat{
 
 /* Corps */
 
+h5{
+    margin: 0;
+    padding: 3px;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    font-size: 20px;
+}
+
+.info{
+    border-bottom: 3px solid #3498DB;
+}
+
 /* Header */
 
 .page header{
@@ -145,6 +158,7 @@ nav .buttons .partenariat{
     background: url('Image/4.avif');
     background-size: cover;
     padding: 40px;
+    border-bottom: 3px solid #3498DB;
 }
 
 .page header h1{
@@ -270,6 +284,11 @@ nav .buttons .partenariat{
 
 /* Fin du Corps */
 
+
+.infos{
+    border-top: 3px solid #3498DB;
+}
+
 /*Pied de page*/
 
 footer{
@@ -291,9 +310,6 @@ footer .colonnes{
 
 @media screen and (max-width: 680px){
 
-body .page{
-        margin: 10px;
-}
 
 .page header{
     background: url('Image/11.avif');
@@ -341,6 +357,10 @@ header h1{
     display: block;
     margin-left: 0px;
     margin-bottom: 20px;
+}
+
+h5{
+    font-size: 15px;
 }
 
 h1{
