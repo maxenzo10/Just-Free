@@ -253,13 +253,13 @@ nav .buttons .partenariat{
 .main .content .card .left h1.partenaires{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 46%;
+    width: 35%;
 }
 
 .main .content .card .left h1.Dons{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 40%;
+    width: 18%;
 }
 
 .main .content .card .right img{
@@ -295,6 +295,12 @@ body .page{
         margin: 10px;
 }
 
+.page header{
+    background: url('Image/11.avif');
+    background-size: cover;
+}
+
+
 img{
     padding-right: 10px;
     padding-bottom: 5px;
@@ -303,6 +309,7 @@ img{
 nav .onglets{
     justify-content: space-between;
     padding-bottom: 5px;
+    display: none;
 }
 
 nav .buttons button{
@@ -320,7 +327,12 @@ header{
     
 header h1{
         font-size: 10px;
-        padding: 100px;
+        padding-right: 0px;
+}
+
+.main .content .card .left{
+    padding: 50px;
+    display: block;
 }
 
 .bouton{
@@ -328,10 +340,36 @@ header h1{
     font-size: 15px;
     display: block;
     margin-left: 0px;
+    margin-bottom: 20px;
 }
 
 h1{
     font-size: 20px;
+}
+
+.main .content .card .left h1.Scan{
+    padding-right: 7px;
+    display: initial;
+}
+
+.main .content .card .left h1.Anime{
+    padding-right: 7px;
+    display: initial;
+}
+
+.main .content .card .left h1.Film{
+    padding-right: 7px;
+    display: initial;
+}
+
+.main .content .card .left h1.Earn{
+    padding-right: 7px;
+    display: initial;
+}
+
+.main .content .card .left h1.partenaires{
+    padding-right: 10px;
+    display: initial;
 }
 
 p{

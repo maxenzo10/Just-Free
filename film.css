@@ -133,14 +133,15 @@ nav .buttons .partenariat{
 /* Fin de la Barre de navigation */
 
 .main{
-    margin-left: 15px;
+    margin-left: 17px;
     margin-top: 40px;
 }
 
+
 .main .card{
     float: left;
-    background-color: #3498DB;
-    margin-right: 15px;
+    background-color: red;
+    margin-right: 17px;
     margin-bottom: 70px;
     
 
@@ -152,24 +153,24 @@ nav .buttons .partenariat{
     border: 0;
 }
 
-.tq{
+.VF{
     margin-top: 0px;
     position: absolute;
     margin-left: 35px;
     color: #fff;
-    background-color: #3498DB;
+    background-color: red;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-.tp{
+.VOSTFR{
     margin-top: 0px;
     position: absolute;
     margin-left: 15px;
     color: #fff;
-    background-color: #3498DB;
+    background-color: red;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 2px;
@@ -188,3 +189,39 @@ nav .buttons .partenariat{
     padding-bottom: 2px;
 }
 
+/*Site sur Android format*/
+
+@media screen and (max-width: 680px){
+
+body .page{
+        margin: 10px;
+}
+
+.page header{
+    background: url('Image/11.avif');
+    background-size: cover;
+}
+
+
+img{
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+nav .onglets{
+    justify-content: space-between;
+    padding-bottom: 5px;
+    display: none;
+}
+
+nav .buttons button{
+    padding: 7px 11px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+}
+
+/* Fin du Site sur Android format*/

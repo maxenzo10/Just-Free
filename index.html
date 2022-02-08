@@ -19,6 +19,7 @@
      
     <script type="text/javascript" src="index.js" defer></script>
 
+
 	<title>Accueil</title>
 
 </head>
@@ -26,6 +27,31 @@
 
 
 <body>
+
+	<!--  Compte à rebours --> <!--
+	<label id="Compte"></label>
+ <script type="text/javascript">
+ var Affiche=document.getElementById("Compte");
+ function Rebour() {
+ var date1 = new Date();
+ var date2 = new Date ("Apr 28, 2022 00:00:00");
+ var sec = (date2 - date1) / 1000;
+ var n = 24 * 3600;
+ if (sec > 0) {
+ j = Math.floor (sec / n);
+ h = Math.floor ((sec - (j * n)) / 3600);
+ mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
+ sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
+ Affiche.innerHTML = "Après ce temps écouler la vidéo sera supprimer du serveur car nous n'avons pas encore les moyens financier pour acheter une plus grande partie de stockage d'un serveur : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s";
+ window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+ }
+ tRebour=setTimeout ("Rebour();", 1000);
+ }
+ Rebour();
+ </script>
+
+ 	--> <!-- Fin du Compte à rebours -->
+
 	<!-- Petit bouton pour remonter au top de la page -->
 	<div class="btn">
 
@@ -45,8 +71,8 @@
 					<a href="#Anime">Anime Vf et Vostfr</a>
 					<a href="#Film">Film</a>
 					<a href="#Earn">Earn</a>
-					<a href="#partenaires">Nos partenaires</a>
-					<a href="#Dons">Dons récoltés</a>
+					<a href="#partenaires">Partenaires</a>
+					<a href="#Dons">Dons</a>
 					</h>
 				</div>
 				<div class="buttons">
@@ -158,7 +184,7 @@
 					
 					<div class="left">
 						<h1 class="partenaires">
-							Nos partenaires ?
+							Partenaires ?
 						</h1>
 						<p>
 							Le partenariat se définit comme une association active de différents intervenants qui, tout en maintenant leur autonomie, acceptent de mettre en commun leurs efforts en vue de réaliser un objectif commun relié.
@@ -176,7 +202,7 @@
 					
 					<div class="left">
 						<h1 class="Dons">
-							Dons récoltés ?
+							Dons ?
 						</h1>
 						<p>
 							Le don est l'action de donner sans contrepartie, de manière désintéressée et intemporelle.
