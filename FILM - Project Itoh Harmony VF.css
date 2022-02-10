@@ -231,6 +231,16 @@ h5{
     background-color: #252525;
 }
 
+.bande-video1{
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 3px solid red;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgb(255, 0, 0);
+    background-color: #252525;
+}
+
 
 
 /*Code sur Android*/
