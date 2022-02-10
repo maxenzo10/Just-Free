@@ -210,10 +210,30 @@ h5{
     padding: 5px;
 }
 
-
-
-
 /* Fin Section de Résumer ou de présentation  */
+
+
+
+.bande-text{
+    display: table;
+    align-items: center;
+    text-align: center;
+    margin-left: 340px;
+}
+
+.bande-video{
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 3px solid #3498DB;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgb(0, 191, 255);
+    background-color: #252525;
+}
+
+
+
+/*Code sur Android*/
 
 @media screen and (max-width: 680px){
 
@@ -249,6 +269,19 @@ nav .buttons button{
     outline: none;
 }
 
+.video{
+    width: 320px;
+    height: 180px;
 }
+
+.bande-text{
+    margin-left: 34px;
+}
+
+
+
+
+}
+
 
 /* Fin du Site sur Android format*/
