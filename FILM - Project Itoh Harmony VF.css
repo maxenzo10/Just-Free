@@ -12,6 +12,31 @@ body {
     color: #fff;
 }
 
+.compteur-visite{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    left: 15px;
+    bottom: 10px;
+    color: yellow;
+    font-size: 13px;
+    background-color: #252525;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 3px solid red;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgb(255, 0, 0);
+}
+.p{
+    margin-right: 10px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0;
+}
+
 /* Barre de navigation */
 
 img{
@@ -120,6 +145,11 @@ h5{
 
 .info{
     border-bottom: 3px solid #3498DB;
+}
+
+.infos{
+    margin-top: 15px;
+    border-top: 3px solid #3498DB;
 }
 
 /*  Section de Résumer ou de présentation  */
@@ -241,6 +271,23 @@ h5{
     background-color: #252525;
 }
 
+/*Pied de page*/
+
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color: #828282;
+    border-top: 3px solid #3498DB;
+}
+
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Fin du Pied de page*/
+
 
 
 /*Code sur Android*/
@@ -249,7 +296,16 @@ h5{
 
 .main{
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.compteur-visite{
+    position: sticky;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 3px solid red;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgb(255, 0, 0);
 }
 
 img{
