@@ -165,7 +165,7 @@ h5{
     float: left;
     border-bottom: 3px solid red;
     margin-right: 17px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     
 
 }
@@ -206,6 +206,18 @@ h5{
     margin-left: 26px;
     color: #fff;
     background-color: #3498DB;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.deji{
+    margin-top: 23px;
+    position: absolute;
+    margin-left: 2px;
+    color: #000;
+    background-color: yellow;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 2px;

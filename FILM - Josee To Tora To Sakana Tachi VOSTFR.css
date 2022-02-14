@@ -12,6 +12,26 @@ body {
     color: #fff;
 }
 
+.easy{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    margin-left: 3px;
+}
+
+.facil{
+    text-decoration: none;
+    background-color: #252525;
+    border-radius: 100%;
+    color: yellow;
+    font-size: 30px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 3px 7px rgb(255, 255, 255);
+}
+
 .compteur-visite{
     position: fixed;
     display: flex;
