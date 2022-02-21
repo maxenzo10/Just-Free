@@ -1,6 +1,6 @@
 console.log('AVERTISSEMENT')
 	
-alert('ATTENTION : La publicité peut contenir du contenu sensible ou sexuel. Par manque de moyen, nous sommes obligé de travailler avec ce genre de plateforme.')
+alert('ATTENTION : Notre site peut contenir des publicités avec du contenu sensible ou sexuel. Par manque de moyen, nous sommes obligé de travailler avec ce genre de plateforme.')
 
 
 const btn = document.querySelector('.btn');
