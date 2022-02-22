@@ -179,9 +179,8 @@ h5{
 .main{
     margin-top: 20px;
     display: flex;
-    align-items: center;
     text-align: center;
-    margin-left: 300px;
+    justify-content: center;
 }
 
 .main .card{
@@ -268,9 +267,8 @@ h5{
 
 .bande-text{
     display: table;
-    align-items: center;
     text-align: center;
-    margin-left: 340px;
+    margin: auto;
 }
 
 .bande-video{
@@ -362,9 +360,7 @@ nav .buttons button{
     height: 180px;
 }
 
-.bande-text{
-    margin-left: 34px;
-}
+
 
 
 
