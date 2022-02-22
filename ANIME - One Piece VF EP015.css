@@ -6,7 +6,7 @@ html{
 
 body { 
     font-family: 'Lato', sans-serif;
-	background-color: #141414;
+    background-color: #141414;
     padding: 0;
     margin: 0;
     color: #fff;
@@ -180,9 +180,8 @@ h5{
     margin-top: 20px;
     display: flex;
     align-items: center;
-    margin-left: 470px;
     text-align: center;
-    
+    justify-content: center;
 }
 
 .main .card{
@@ -226,7 +225,8 @@ h5{
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    margin-left: 50px;
+    justify-content: center;
+    margin-right: 15px;
 }
 
 .pp3{
@@ -260,13 +260,13 @@ h5{
 
 
 .bande-text{
-    display: table;
-    align-items: center;
     text-align: center;
-    margin-left: 340px;
+    justify-content: center;
 }
 
 .bande-video{
+    display: table;
+    margin: auto;
     padding: 2px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -314,11 +314,11 @@ footer .colonnes{
 .main{
     margin: 0;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 .pt{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .compteur-visite{
@@ -355,6 +355,11 @@ nav .buttons button{
     border: none;
     font-size: 15px;
     outline: none;
+}
+
+.block{
+    margin: auto;
+    display: flex;
 }
 
 .video{
