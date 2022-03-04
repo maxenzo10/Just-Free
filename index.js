@@ -1,6 +1,6 @@
 console.log('AVERTISSEMENT')
 	
-alert('ATTENTION : Notre site peut contenir des publicités avec du contenu sensible ou sexuel. Par manque de moyen, nous sommes obligé de travailler avec ce genre de plateforme.')
+alert('CONSEIL : Si vous voulez soutenir notre plateforme, veuillez autoriser les notifications. Nous sommes rénumérés au CPC (coût par click) donc lorsque vous cliquer sur une notification nous percevrons environ 0.02$. Cela nous permettra de retirer petit-à-petit les pop-up. A VOUS DE JOUER !')
 
 
 const btn = document.querySelector('.btn');
