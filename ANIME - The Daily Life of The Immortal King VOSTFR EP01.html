@@ -85,7 +85,7 @@
 		const counter = document.getElementById("counter");
 
 		const updateCounter = async () => {
-			const data = await fetch('https://api.countapi.xyz/hit/just-free-anime-hd-anime-the-daily-life-of-the-immortal-king-ep-01-vostfr/visits')
+			const data = await fetch('https://api.countapi.xyz/hit/just-free-anime-hd-anime-the-daily-life-ep-01-vostfr/visits')
 			const count = await data.json()
 			counter.innerHTML = count.value
 		};
@@ -108,6 +108,7 @@
 							<!-- liste déroulante -->
 
 							<select class="menu" name="menu" onchange="document.location=this.value">
+								<optgroup label="Saison 1">
 								<option value="">EP</option>
 								<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP01.html">EP 01</option>
 								<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP02.html">EP 02</option>
@@ -124,6 +125,21 @@
 								<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP13.html">EP 13</option>
 								<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP14.html">EP 14</option>
 								<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP15.html">EP 15</option>
+								</optgroup>
+								<optgroup label="Saison 2">
+									<option value="ANIME - The Daily Life of The Immortal King VOSTFR EP01.html">EP 01</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP02.html">EP 02</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP03.html">EP 03</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP04.html">EP 04</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP05.html">EP 05</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP06.html">EP 06</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP07.html">EP 07</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP08.html">EP 08</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP09.html">EP 09</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP10.html">EP 10</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP11.html">EP 11</option>
+								<option value="ANIME - The Daily Life of The Immortal King VOSTFR S2EP12.html">EP 12</option>
+								</optgroup>
 							</select>
 
 							<div class="pt">
