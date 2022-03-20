@@ -1,8 +1,3 @@
-console.log('AVERTISSEMENT')
-	
-alert('CONSEIL : Si vous voulez soutenir notre plateforme, veuillez autoriser les notifications. Nous sommes rénumérés au CPC (coût par click) donc lorsque vous cliquer sur une notification nous percevrons environ 0.02$. Cela nous permettra de retirer petit-à-petit les pop-up. A VOUS DE JOUER !')
-
-
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
