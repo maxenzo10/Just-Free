@@ -6,7 +6,7 @@ html{
 
 body { 
     font-family: 'Lato', sans-serif;
-	background-color: #141414;
+    background-color: #141414;
     padding: 0;
     margin: 0;
     color: #fff;
@@ -179,6 +179,7 @@ h5{
 .main{
     margin-top: 20px;
     display: flex;
+    align-items: center;
     text-align: center;
     justify-content: center;
 }
@@ -265,12 +266,13 @@ h5{
 
 
 .bande-text{
-    display: table;
     text-align: center;
-    margin: auto;
+    justify-content: center;
 }
 
 .bande-video{
+    display: table;
+    margin: auto;
     padding: 2px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -281,6 +283,8 @@ h5{
 }
 
 .bande-video1{
+    display: table;
+    margin: auto;
     padding: 2px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -306,6 +310,62 @@ footer .colonnes{
 }
 
 /*Fin du Pied de page*/
+
+/* Site sous format tablette */
+
+@media screen and (max-width: 1272px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
+/* Site sous format tablette */
+
+@media screen and (max-width: 1050px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+.faisundon{
+    display: none;
+}
+
+.partenariat{
+    display: none;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+}
+
+/* Fin du Site sur Android format*/
 
 
 
@@ -338,6 +398,14 @@ h5{
 
 .pp{
     font-size: 14px;
+}
+
+.faisundon{
+    display: inline-block;   
+}
+
+.partenariat{
+    display: inline-block;
 }
 
 nav .onglets{
