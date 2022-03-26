@@ -276,18 +276,6 @@ h5{
     background-color: #252525;
 }
 
-.bande-video1{
-    padding: 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: 3px solid red;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgb(255, 0, 0);
-    background-color: #252525;
-}
-
-
-
 /*Pied de page*/
 
 footer{
@@ -305,7 +293,61 @@ footer .colonnes{
 
 /*Fin du Pied de page*/
 
+/* Site sous format tablette */
 
+@media screen and (max-width: 1272px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
+/* Site sous format tablette */
+
+@media screen and (max-width: 1050px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+.faisundon{
+    display: none;
+}
+
+.partenariat{
+    display: none;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+}
+
+/* Fin du Site sur Android format*/
 
 /*Code sur Android*/
 
@@ -314,8 +356,8 @@ footer .colonnes{
 .main{
     margin: 0;
     margin-top: 10px;
-    margin-left: 0px;
 }
+
 
 .pt{
     margin-left: 0px;
@@ -343,6 +385,14 @@ h5{
     font-size: 14px;
 }
 
+.faisundon{
+    display: inline-block;   
+}
+
+.partenariat{
+    display: inline-block;
+}
+
 nav .onglets{
     justify-content: space-between;
     padding-bottom: 5px;
@@ -359,16 +409,11 @@ nav .buttons button{
 
 .block{
     margin: auto;
-    display: flex;
 }
 
 .video{
     width: 320px;
     height: 180px;
-}
-
-.bande-text{
-    margin-left: 34px;
 }
 
 
