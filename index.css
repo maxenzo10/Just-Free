@@ -247,25 +247,25 @@ h5{
 .main .content .card .left h1.Scan{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 18%;
+    width: 20%;
 }
 
 .main .content .card .left h1.Anime{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 22%;
+    width: 25%;
 }
 
 .main .content .card .left h1.Film{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 16%;
+    width: 20%;
 }
 
 .main .content .card .left h1.Earn{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 16%;
+    width: 20%;
 }
 
 .main .content .card .left h1.partenaires{
@@ -277,7 +277,7 @@ h5{
 .main .content .card .left h1.Dons{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 18%;
+    width: 20%;
 }
 
 .main .content .card .right img{
