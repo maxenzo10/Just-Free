@@ -8,8 +8,9 @@ body {
     font-family: 'Lato', sans-serif;
 	background-color: #141414;
     padding: 0;
-    margin: 0;
+    margin: auto;
     color: #fff;
+    width: 100%;
 }
 
 
@@ -34,6 +35,7 @@ body {
 .icone{
     width: 70px;
     padding: 1px;
+    margin: auto;
 }
 
 
@@ -42,8 +44,7 @@ body {
 /* Barre de navigation */
 
 img{
-    margin: 0px 40px;
-    padding-right: 50px;
+    margin: 0px 30px;
     flex-wrap: wrap;
     aspect-ratio: attr(width) / attr(height);
 }
@@ -217,14 +218,15 @@ h5{
     border: 2px solid #fff;
 }
 
+
 .bouton{
     background-color: #E74C3C;
     border: none;
+    display: block;
+    width: 140px;
+    margin: 0 auto;
     color: #fff;
-    position: relative;
     bottom: -20px;
-    margin-left: 140px;
-    position: relative;
     font-size: 15px;
     padding: 13px 20px;
     text-align: center;
@@ -309,6 +311,109 @@ footer .colonnes{
 /*Fin du Pied de page*/
 
 
+/* Site sous format tablette */
+
+@media screen and (max-width: 1272px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+.main .content .card .left h1.Scan{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 70px;
+}
+
+.main .content .card .left h1.Anime{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 90px;
+}
+
+.main .content .card .left h1.Film{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 70px;
+}
+
+.main .content .card .left h1.Earn{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 70px;
+}
+
+.main .content .card .left h1.partenaires{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 56%;
+}
+
+.main .content .card .left h1.Dons{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 29%;
+}
+
+.main .content .card .left{
+    flex: 0 0 40%;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
+/* Site sous format tablette */
+
+@media screen and (max-width: 1000px){
+
+
+.main .content .card .left{
+    padding-bottom: 40px;
+}   
+
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+.faisundon{
+    display: none;
+}
+
+.partenariat{
+    display: none;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
 /*Site sur Android format*/
 
 @media screen and (max-width: 680px){
@@ -326,8 +431,6 @@ img{
 }
 
 nav .onglets{
-    justify-content: space-between;
-    padding-bottom: 5px;
     display: none;
 }
 
@@ -337,6 +440,14 @@ nav .buttons button{
     border: none;
     font-size: 15px;
     outline: none;
+}
+
+.faisundon{
+    display: inline-block;   
+}
+
+.partenariat{
+    display: inline-block;
 }
 
 header{

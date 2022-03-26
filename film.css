@@ -33,6 +33,7 @@ body {
 .icone{
     width: 70px;
     padding: 1px;
+    margin: auto;
 }
 
 /* Barre de navigation */
@@ -171,6 +172,18 @@ h5{
 
 }
 
+.ytyrut{
+    margin-left: 15px;
+    border-bottom: 3px solid red;
+    width: 200px;
+}
+
+.ytyru{
+    margin-left: 15px;
+    border-bottom: 3px solid red;
+    width: 145px;
+}
+
 .lien{
     padding: 0;
     margin: 0;
@@ -245,6 +258,63 @@ footer .colonnes{
 /*Fin du Pied de page*/
 
 
+/* Site sous format tablette */
+
+@media screen and (max-width: 1272px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
+/* Site sous format tablette */
+
+@media screen and (max-width: 1050px){
+
+.animemenu{
+    display: none;
+}
+
+.partenairesmenu{
+    display: none;
+}
+
+.donsmenu{
+    display: none;
+}
+
+.faisundon{
+    display: none;
+}
+
+.partenariat{
+    display: none;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+}
+
+/* Fin du Site sur Android format*/
+
+
 /*Site sur Android format*/
 
 @media screen and (max-width: 680px){
@@ -256,6 +326,14 @@ h5{
 img{
     padding-right: 10px;
     padding-bottom: 5px;
+}
+
+.faisundon{
+    display: inline-block;   
+}
+
+.partenariat{
+    display: inline-block;
 }
 
 nav .onglets{
