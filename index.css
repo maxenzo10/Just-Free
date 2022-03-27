@@ -268,10 +268,22 @@ h5{
     width: 20%;
 }
 
+.main .content .card .left h1.Série{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 20%;
+}
+
 .main .content .card .left h1.Earn{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
     width: 20%;
+}
+
+.main .content .card .left h1.Boutique{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 30%;
 }
 
 .main .content .card .left h1.partenaires{
