@@ -250,6 +250,12 @@ h5{
     width: 20%;
 }
 
+.main .content .card .left h1.Livre{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: 20%;
+}
+
 .main .content .card .left h1.Anime{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
