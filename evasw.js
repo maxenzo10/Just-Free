@@ -1,1 +1,0 @@
-importScripts('https://ulmoyc.com/v1/sw-import.js?h=waWQiOjExMTY0MTUsInNpZCI6MTEyOTIyMiwid2lkIjozMDkwMDUsInNyYyI6MiwicG0iOjB9eyJ&d=just-free-anime-hd.tk');
