@@ -82,22 +82,6 @@
 
 			<!-- Fin du Bouton pour android, revenir à la liste de film easy -->
 
-			<div class="compteur-visite">
-	<h3 class="p">Visite total :</h3>
-	<h2 id="counter">0</h2>
-	<script type="text/javascript">
-		const counter = document.getElementById("counter");
-
-		const updateCounter = async () => {
-			const data = await fetch('https://api.countapi.xyz/hit/just-free-anime-hd-anime-kuroko-basket-s2-ep-16-vostfr/visits')
-			const count = await data.json()
-			counter.innerHTML = count.value
-		};
-
-		updateCounter();
-	</script>
-	</div>
-
 			<section>
 				
 				<div class="main">
