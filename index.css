@@ -6,7 +6,7 @@ html{
 
 body { 
     font-family: 'Lato', sans-serif;
-	background-color: #141414;
+	background: linear-gradient(#141e30, #243b55);
     padding: 0;
     margin: auto;
     color: #fff;
@@ -55,7 +55,7 @@ nav{
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #141414;
+    background: rgba(0,0,0,.5);
     padding: 10px 0px;
     border-bottom: 3px solid #3498DB;
 }
@@ -144,7 +144,7 @@ h5{
     padding: 3px;
     text-align: center;
     color: yellow;
-    background-color: black;
+    background-color: #141516;
     font-size: 17px;
 }
 
@@ -208,14 +208,85 @@ h5{
 
 
 
-.main .content .card .left{
+.main .content .card .left1{
     flex: 0 0 30%;
     padding: 20px;
-    background-color: #3498DB;
+    background-color: #141516;
     color: #fff;
     overflow: hidden;
-    box-shadow: 0 5px 25px rgb(255, 255, 255);
-    border: 2px solid #fff;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left2{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left3{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left4{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left5{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left6{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left7{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left8{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left9{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
 }
 
 
@@ -244,58 +315,58 @@ h5{
     flex: 0 0 70%;
 }
 
-.main .content .card .left h1.Scan{
+.main .content .card .left1 h1.Scan{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 80px;
 }
 
-.main .content .card .left h1.Livre{
+.main .content .card .left2 h1.Livre{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 80px;
 }
 
-.main .content .card .left h1.Anime{
+.main .content .card .left3 h1.Anime{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 25%;
+    width: 95px;
 }
 
-.main .content .card .left h1.Film{
+.main .content .card .left4 h1.Film{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 73px;
 }
 
-.main .content .card .left h1.Série{
+.main .content .card .left5 h1.Série{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 80px;
 }
 
-.main .content .card .left h1.Earn{
+.main .content .card .left6 h1.Earn{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 76px;
 }
 
-.main .content .card .left h1.Boutique{
+.main .content .card .left7 h1.Boutique{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 30%;
+    width: 126px;
 }
 
-.main .content .card .left h1.partenaires{
+.main .content .card .left8 h1.partenaires{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 35%;
+    width: 153px;
 }
 
-.main .content .card .left h1.Dons{
+.main .content .card .left9 h1.Dons{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 20%;
+    width: 80px;
 }
 
 .main .content .card .right img{
@@ -314,7 +385,7 @@ h5{
 /*Pied de page*/
 
 footer{
-    background-color: #1a1a1a;
+    background: rgba(0,0,0,.5);
     padding: 25px 100px;
     color: #828282;
     border-top: 3px solid #3498DB;
@@ -348,13 +419,13 @@ footer .colonnes{
 .main .content .card .left h1.Scan{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 70px;
+    width: 78px;
 }
 
 .main .content .card .left h1.Anime{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 90px;
+    width: 93px;
 }
 
 .main .content .card .left h1.Film{
@@ -366,19 +437,19 @@ footer .colonnes{
 .main .content .card .left h1.Earn{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 70px;
+    width: 74px;
 }
 
 .main .content .card .left h1.partenaires{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 56%;
+    width: 156px;
 }
 
 .main .content .card .left h1.Dons{
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff;
-    width: 29%;
+    width: 80px;
 }
 
 .main .content .card .left{
@@ -395,9 +466,87 @@ footer .colonnes{
 @media screen and (max-width: 1000px){
 
 
-.main .content .card .left{
-    padding-bottom: 40px;
-}   
+.main .content .card .left1{
+    flex: 0 0 360px;
+    background: url('Image/1.jpg');
+    padding-bottom: 70px;
+}
+
+.main .content .card .left2{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left3{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left4{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left5{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left6{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left7{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left8{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.main .content .card .left9{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #141516;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}  
+
+.main .content .card .right{
+    display: none;
+}
 
 
 .animemenu{
@@ -504,6 +653,11 @@ h1{
     display: initial;
 }
 
+.main .content .card .left h1.Livre{
+    padding-right: 7px;
+    display: initial;
+}
+
 .main .content .card .left h1.Anime{
     padding-right: 7px;
     display: initial;
@@ -514,13 +668,28 @@ h1{
     display: initial;
 }
 
+.main .content .card .left h1.Série{
+    padding-right: 7px;
+    display: initial;
+}
+
 .main .content .card .left h1.Earn{
+    padding-right: 7px;
+    display: initial;
+}
+
+.main .content .card .left h1.Boutique{
     padding-right: 7px;
     display: initial;
 }
 
 .main .content .card .left h1.partenaires{
     padding-right: 10px;
+    display: initial;
+}
+
+.main .content .card .left h1.Dons{
+    padding-right: 7px;
     display: initial;
 }
 
