@@ -468,80 +468,57 @@ footer .colonnes{
 
 .main .content .card .left1{
     flex: 0 0 360px;
-    background: url('Image/1.jpg');
+    background: url('Image/1.5.jpg');
     padding-bottom: 70px;
 }
 
+
 .main .content .card .left2{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/12.5.jpg');
+    padding-bottom: 55px;
 }
 
 .main .content .card .left3{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/2.5.jpg');
+    padding-bottom: 55px;
 }
 
 .main .content .card .left4{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/5.5.jpg');
+    padding-bottom: 55px;
 }
 
 .main .content .card .left5{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/13.5.jpg');
+    padding-bottom: 52px;
 }
 
 .main .content .card .left6{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/6.5.jpg');
+    padding-bottom: 90px;
 }
 
 .main .content .card .left7{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/14.5.jpg');
+    padding-bottom: 90px;
 }
 
 .main .content .card .left8{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/7.5.jpg');
+    padding-bottom: 52px;
 }
 
 .main .content .card .left9{
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: #141516;
-    color: #fff;
-    overflow: hidden;
-    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+    flex: 0 0 360px;
+    background: url('Image/8.5.jpg');
+    padding-bottom: 52px;
 }  
 
 .main .content .card .right{
@@ -636,7 +613,6 @@ header h1{
     padding: 7px 11px;
     font-size: 15px;
     display: block;
-    margin-left: 0px;
     margin-bottom: 20px;
 }
 
