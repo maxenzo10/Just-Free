@@ -150,6 +150,20 @@ h5{
     font-size: 17px;
 }
 
+.pub728x90{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pub468x60{
+    display: none;
+}
+
+.pub300x50{
+    display: none;
+}
+
 .info{
     border-bottom: 3px solid #3498DB;
 }
@@ -465,7 +479,22 @@ footer .colonnes{
 
 /* Site sous format tablette */
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1050px){
+
+.pub728x90{
+    display: none;
+}
+
+.pub468x60{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pub300x50{
+    display: none;
+}
 
 
 .main .content .card .left1{
@@ -563,6 +592,17 @@ img{
 /*Site sur Android format*/
 
 @media screen and (max-width: 680px){
+
+.pub468x60{
+    display: none;
+}
+
+.pub300x50{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 .page header{
