@@ -121,19 +121,21 @@ nav .buttons button{
 }
 
 nav .buttons .faisundon{
-    background-color: #3498DB;
+    background-color: #141516;
     margin-right: 10px;
     margin-top: 10px;
     color: #fff;
     cursor: pointer;
+    border: 2px solid #D0D3D4;
 }
 
 nav .buttons .partenariat{
-    background-color: red;
+    background-color: #E74C3C;
+    color: #fff;
     margin-right: 10px;
     margin-top: 10px;
-    color: #fff;
     cursor: pointer;
+    border: 2px solid #D0D3D4;
 }
 
 /* Fin de la Barre de navigation */
