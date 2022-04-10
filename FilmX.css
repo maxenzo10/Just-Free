@@ -6,7 +6,7 @@ html{
 
 body { 
     font-family: 'Lato', sans-serif;
-    background-color: #141414;
+    background: linear-gradient(#141e30, #243b55);
     padding: 0;
     margin: 0;
     color: #fff;
@@ -22,7 +22,7 @@ body {
 .facil{
     text-align: center;
     text-decoration: none;
-    background-color: #252525;
+    background: #141516;
     border-radius: 100%;
     color: yellow;
     font-size: 30px;
@@ -34,24 +34,7 @@ body {
     box-shadow: 0 3px 7px rgb(255, 255, 255);
 }
 
-.compteur-visite{
-    position: fixed;
-    display: flex;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    left: 15px;
-    bottom: 10px;
-    color: yellow;
-    font-size: 13px;
-    background-color: #252525;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 5px;
-    border: 3px solid red;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgb(255, 0, 0);
-}
+
 .p{
     margin-right: 10px;
     color: #fff;
@@ -74,7 +57,7 @@ nav{
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #141414;
+    background: rgba(0,0,0,.5);
     padding: 10px 0px;
     border-bottom: 3px solid #3498DB;
 }
@@ -134,24 +117,25 @@ nav .buttons button{
     font-size: 15px;
     outline: none;
     overflow: hidden;
-    box-shadow: 0 2px 15px rgb(255, 255, 255);
-    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(255,255,255,.9);
 }
 
 nav .buttons .faisundon{
-    background-color: #3498DB;
+    background-color: #141516;
     margin-right: 10px;
     margin-top: 10px;
     color: #fff;
     cursor: pointer;
+    border: 2px solid #D0D3D4;
 }
 
 nav .buttons .partenariat{
-    background-color: red;
+    background-color: #E74C3C;
+    color: #fff;
     margin-right: 10px;
     margin-top: 10px;
-    color: #fff;
     cursor: pointer;
+    border: 2px solid #D0D3D4;
 }
 
 /* Fin de la Barre de navigation */
@@ -161,8 +145,22 @@ h5{
     padding: 3px;
     text-align: center;
     color: yellow;
-    background-color: black;
+    background-color: #141516;
     font-size: 17px; 
+}
+
+.pub728x90{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pub468x60{
+    display: none;
+}
+
+.pub300x50{
+    display: none;
 }
 
 .info{
@@ -189,22 +187,54 @@ h5{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: #141415;
+    background-color: #141416;
     border-radius: 5px;
     padding: 3px;
-    border: 3px solid #3498DB;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgb(0, 191, 255);
-    background-color: #252525;
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
 }
 
 .main .card .content{
+    margin: 3px;
+    margin-left: 6px;
     background-color: #252525;
-    border: 3px solid red;
     padding: 3px;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgb(255, 0, 0);
+    box-shadow: 0 5px 8px rgba(0,0,0,.6);
+}
+
+.ytyrut{
+    color: #03e9f4;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    border: 3px solid #141516;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.6);
+}
+
+.ytyrus{
+    color: #03e9f4;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    border: 3px solid #141516;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.6);
+}
+
+.ytyru{
+    color: #03e9f4;
+    text-align: center;
+    padding: 5px;
+    width: 140px;
+    border: 3px solid #141516;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.6);
 }
 
 .img{
@@ -285,31 +315,23 @@ h5{
 .bande-video{
     display: table;
     margin: auto;
-    padding: 2px;
-    border-radius: 5px;
     margin-bottom: 20px;
-    border: 3px solid #3498DB;
+    margin-top: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgb(0, 191, 255);
-    background-color: #252525;
 }
 
 .bande-video1{
     display: table;
     margin: auto;
-    padding: 2px;
-    border-radius: 5px;
     margin-bottom: 20px;
-    border: 3px solid red;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgb(255, 0, 0);
-    background-color: #252525;
+    margin-top: 10px;
 }
 
 /*Pied de page*/
 
 footer{
-    background-color: #1a1a1a;
+    background: rgba(0,0,0,.5);
     padding: 25px 100px;
     color: #828282;
     border-top: 3px solid #3498DB;
@@ -349,6 +371,21 @@ footer .colonnes{
 @media screen and (max-width: 1050px){
 
 .animemenu{
+    display: none;
+}
+
+.pub728x90{
+    display: none;
+}
+
+.pub468x60{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pub300x50{
     display: none;
 }
 
@@ -402,6 +439,17 @@ img{
 img{
     padding-right: 10px;
     padding-bottom: 5px;
+}
+
+.pub468x60{
+    display: none;
+}
+
+.pub300x50{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h5{
