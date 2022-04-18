@@ -3,6 +3,9 @@ appnexus.com,1201403,RESELLER
 
 
 #dailymotion-v1.29-2022-01-21
+triplelift.com,3054,DIRECT,6c33edb13117fd86
+appnexus.com,3360,RESELLER
+headerlift.com,11483,RESELLER
 freewheel.tv,899777,RESELLER
 freewheel.tv,901025,RESELLER
 freewheel.tv,1168417,RESELLER
