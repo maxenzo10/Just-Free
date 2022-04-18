@@ -403,6 +403,13 @@ h5{
     justify-content: center;
 }
 
+.vpub1{
+    position: fixed;
+    bottom: 20px;
+    width: 240px;
+    height: 120px;
+}
+
 /* Fin du Corps */
 
 
@@ -606,6 +613,10 @@ img{
 @media screen and (max-width: 680px){
 
 .pub468x60{
+    display: none;
+}
+
+.vpub1{
     display: none;
 }
 
