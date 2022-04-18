@@ -397,6 +397,12 @@ h5{
     margin-top: 5px;
 }
 
+.vpub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Fin du Corps */
 
 
